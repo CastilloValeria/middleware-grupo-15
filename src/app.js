@@ -1,5 +1,5 @@
 // ************ Require's ************
-const createError = require('http-errors');
+const createError = require ('http-errors');
 const cookieParser = require('cookie-parser');
 const express = require('express');
 const logger = require('morgan');
@@ -23,9 +23,9 @@ app.set('views', './src/views'); // Seteo de la ubicación de la carpeta "views"
 
 // ************ WRITE YOUR CODE FROM HERE ************
 // ************ Route System require and use() ************
-const mainRouter = require('./routes/main');
-app.use('/', mainRouter);
-
+// const mainRouter = require('./routes/main');
+// app.use('/', mainRouter);
+const usersRouter = require('./routes/users');
 
 
 // ************ DON'T TOUCH FROM HERE ************

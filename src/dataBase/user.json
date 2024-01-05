@@ -1,0 +1,16 @@
+{
+    "usuarios": [
+        {
+            "nombre_de_usuario": "usuario1",
+            "correo": "usuario1@ejemplo.com",
+            "contrasena": "contrasena_segura1",
+            "confirmar_contrasena": "contrasena_segura1"
+        },
+        {
+            "nombre_de_usuario": "usuario2",
+            "correo": "usuario2@ejemplo.com",
+            "contrasena": "contrasena_segura2",
+            "confirmar_contrasena": "contrasena_segura2"
+        }
+    ]
+}
