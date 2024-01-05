@@ -26,7 +26,10 @@ app.set('views', './src/views'); // Seteo de la ubicación de la carpeta "views"
 // const mainRouter = require('./routes/main');
 // app.use('/', mainRouter);
 const usersRouter = require('./routes/users');
+ app.use('/user', usersRouter);
 
+// const productRouter =require('./routes/products')
+// app.use('/products', productsRouter);
 
 // ************ DON'T TOUCH FROM HERE ************
 // ************ catch 404 and forward to error handler ************

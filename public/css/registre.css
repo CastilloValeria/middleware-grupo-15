@@ -7,7 +7,7 @@ header{
     height: 87px;
 }
 .register-form {
-    background-image: url("/public/images/zUL.gif");
+    background-image: url("/images/zUL.gif");
     background-repeat: no-repeat;
     
 }
@@ -33,6 +33,7 @@ header{
     margin-top: 18px;
 }
 .register__buttom {
+
     display: flex;
     margin-top: 18px;
     justify-content: center;
@@ -44,8 +45,50 @@ header{
 }
 
 @media (min-width:768px){
-
+.body-register{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
-@media (min-width:1024px){
+.register-form{
+    width: 52%;
+}
+.register{
+    font-size: 18px;
+}
+.register__terminos-condiciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
 
+@media (min-width:1024px){
+    .register-form{
+        background-repeat: repeat;
+        width: 100%;
+    }
+    .register{
+        font-size: 22px;
+        gap: 40px;
+    }
+    .register input {
+        margin-top: 30px;
+        position: absolute;
+        font-size: 25px;
+    }
+    .register__terminos-condiciones{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .btn-outline-secondary {
+        font-size: 18px;
+    }
+
+    #icon-register{
+        position: relative;
+        margin-left: 260px;
+    }
 }
