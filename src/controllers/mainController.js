@@ -7,7 +7,7 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 const mainControllers = {
     index: (req, res) => {
         const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
-        res.render('index', {products, toThousand})
+        res.render('index', {title:"Cinema FM-VC",products, toThousand})
         
     },
 }

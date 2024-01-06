@@ -25,7 +25,7 @@ app.set('views', './src/views'); // Seteo de la ubicación de la carpeta "views"
 // ************ Route System require and use() ************
 const mainRouter = require('./routes/main');
 app.use('/', mainRouter);
-// const usersRouter = require('./routes/users');
+const usersRouter = require('./routes/users');
  app.use('/user', usersRouter);
 
 // const productRouter =require('./routes/products')
