@@ -1,0 +1,10 @@
+se ingresó en la ruta:/images/logo.png
+se ingresó en la ruta:/images/avatar.jpeg
+se ingresó en la ruta:/images/star-Wars.jpeg
+se ingresó en la ruta:/css/app.css
+se ingresó en la ruta:/css/index.css
+se ingresó en la ruta:/css/registre.css
+se ingresó en la ruta:/images/zUL.gif
+se ingresó en la ruta:/images/logo.png
+se ingresó en la ruta:/products/1
+se ingresó en la ruta:/images/logo.png
