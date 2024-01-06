@@ -1,0 +1,18 @@
+[
+    {"id": 1,
+    "image": "avatar.jpeg",
+    "name": "avatar",
+    "price": "1000",
+    "category": "accion",
+    "description": "En el año 2154, el exmarine Jake Sully es seleccionado para el programa Avatar, un experimento que le pondrá en el cuerpo de un alienígena y que podrá controlar con su propia mente. Él no es científico, pero su compatibilidad genética con su hermano gemelo hace que sea el candidato idóneo tras la muerte de este."
+    },
+    {
+    
+    "id": 2,
+    "image":"star-Wars.jpeg",
+    "name": "starWars",
+    "price": "1500",
+    "category": "cienciaFiccion",
+    "description": "La trama describe la historia de un grupo de guerrilleros (conocidos como la Alianza Rebelde) cuyo objetivo es destruir la estación espacial Estrella de la Muerte, creada por el opresor Imperio Galáctico. Desde una perspectiva general, la historia se enfoca en un joven granjero llamado Luke Skywalker, quien, de forma repentina, se convertirá en un héroe conforme acompaña al Maestro Jedi Obi-Wan Kenobi en una misión que lo llevará a unirse a la Alianza Rebelde para ayudarles a destruir la estación espacial del Imperio."
+    }
+]

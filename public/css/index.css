@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(39, 31, 68);
+}
+header{
+    background-color: white;
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+}
+
+
+/*  */
+.articulo{
+    width: 265px;
+    background-color: rgb(39, 31, 68);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    border-radius: 10px;
+}
+.product-box{
+    padding: auto;
+}
+.product-box a{
+    color: white;
+    text-decoration: none;
+}
+.products-wrapper{
+    width: auto;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    background-image: url("/images/zUL.gif");
+}

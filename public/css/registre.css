@@ -1,11 +1,11 @@
 .body-register{
     background-color: aliceblue;
 }
-header{
+/* header{
     background: linear-gradient(to bottom right, var(--color-violeta), blue);
     width:100%;
     height: 87px;
-}
+} */
 .register-form {
     background-image: url("/public/images/zUL.gif");
     background-repeat: no-repeat;
