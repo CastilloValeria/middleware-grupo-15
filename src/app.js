@@ -4,13 +4,16 @@ const cookieParser = require('cookie-parser');
 const express = require('express');
 const logger = require('morgan');
 const path = require('path');
-const logMiddlewar = require('./middleware/userLogs')
+
+const userLogs = require('./middleware/userLogs')
 
 // ************ express() - (don't touch) ************
 const app = express();
 
+
+
 // ************ Middlewares - (don't touch) ************
-app.use(logMiddlewar);
+// app.use(logMiddlewar);
 app.use(express.static(path.join(__dirname, '../public')));  // Necesario para los archivos estáticos en el folder /public
 app.use(express.urlencoded({ extended: false }));
 app.use(logger('dev'));
@@ -25,12 +28,13 @@ app.set('views', './src/views'); // Seteo de la ubicación de la carpeta "views"
 
 
 // ************ WRITE YOUR CODE FROM HERE ************
+app.use(userLogs)
 // ************ Route System require and use() ************
 const mainRouter = require('./routes/main');
 app.use('/', mainRouter);
-const usersRouter = require('./routes/users');
- app.use('/user', usersRouter);
-
+// const usersRouter = require('./routes/users');
+// app.use('/user', usersRouter);
+// 
 // const productRouter =require('./routes/products')
 // app.use('/products', productsRouter);
 

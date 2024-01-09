@@ -10,6 +10,10 @@ const mainControllers = {
         res.render('index', {title:"Cinema FM-VC",products, toThousand})
         
     },
+    login:(req,res)=>{
+        const admin = req.query.user;
+        res.send(`Bienvenido Administrador/a:${admin}`)
+    }
 }
 
 

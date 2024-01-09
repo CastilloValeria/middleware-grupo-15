@@ -1,8 +1,15 @@
-const express = require('express');
-const router = express.Router();
-const mainControllers = require("../controllers/mainController")
+const fs =require ('fs');
 
-router.get('/', mainControllers.index);
+const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
-
-module.exports = router;
+const controller={
+    index: (req, res) => {
+        const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+        res.render('index', {title:"Cinema FM-VC",products, toThousand})
+    },
+    
+    login:(req,res)=>{
+        res.send(`Bienvenido administrador/a: ${admin}`);
+    }
+}
+module.exports = controller;
