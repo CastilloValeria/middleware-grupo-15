@@ -11,8 +11,8 @@ const mainControllers = {
         
     },
     login:(req,res)=>{
-        const admin = req.query.user;
-        res.send(`Bienvenido Administrador/a:${admin}`)
+        const user = req.query.user;
+        res.send(`Bienvenido Administrador/a:${user}`)
     }
 }
 
